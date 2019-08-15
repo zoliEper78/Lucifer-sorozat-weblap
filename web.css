@@ -1,0 +1,57 @@
+h1{
+	font-family:Arial;
+	text-align:center;
+	color: white;
+}
+body{
+	background-image:url(background.jpg);
+	background-repeat:no-repeat;
+	background-size: 1400px 800px;
+}
+div#container {
+}
+ul#menu {
+	list-style: none;
+}
+ul#menu li{
+	float: left;
+	width: 250px;
+	margin: 0 2px 0 0;
+	list-style-position: center;
+}
+ul#menu li a {
+	color: #ffa601;
+	padding: 10px;
+	display: block;
+}
+ul#menu li a:hover {
+	color: white;
+}
+h2{
+	font-family:times new roman;
+	color:#fcff34;
+}
+h3{
+	font-family:calibri;
+	color:#fd4e00;
+}
+.rotate-icon
+{
+	-webkit-transition: webkit-transform 1s ease-out;
+	-moz-transition: -moz-transform 1s ease-out;
+	-transition: -transform 1 ease-out;
+	
+}
+.rotate-link:hover .rotate-icon
+{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-transform: rotate(360deg);
+}
+.kerek img{
+	border-radius: 15%;
+}
+
+
+
+
